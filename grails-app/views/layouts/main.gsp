@@ -75,19 +75,7 @@
       </div>
       %{--</g:ifAllGranted>--}%
 
-      <div class="link-box">
-        <ul>
-          <li>Historic Data</li>
-          %{--<li><g:link controller="competition" action="list" class="competitions" title="Competitions">Competitions</g:link></li>
-          <li><g:link controller="transactionLog" action="list" class="quotesntrades" title="Competitions">Quotes and Trades</g:link></li>
-          <li><g:link controller="shout" action="list" class="orders" title="Orders">Orders</g:link></li>
-          <li><g:link controller="orderbook" action="list" class="orderbooks" title="Orderbooks">Orderbooks</g:link></li>
-          <li><g:link controller="product" action="list" class="products" title="Products">Products</g:link></li>
-          <li><g:link controller="cashPosition" action="list" class="cashaccounts" title="Cash Accounts">Cash Accounts</g:link></li>
-          <li><g:link controller="depotPosition" action="list" class="userdepots" title="User Depots">User Depots</g:link></li>
-          <li><g:link controller="forecast" action="list" class="userforecasts" title="User Forecasts">User Forecasts</g:link></li>--}%
-        </ul>
-      </div>
+      <g:applyLayout name="domainControllerLayout"/>
 
       <div id="universities">
         <a href="http://www.kit.edu" target="_blank" title="Karlsruhe Institute of Technology (KIT)"><img src="${resource(dir: 'images/logos', file: 'kit_logo.png')}" alt="Karlsruhe Institute of Technology"/></a>
