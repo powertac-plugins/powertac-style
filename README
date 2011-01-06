@@ -1,0 +1,1 @@
+PowerTAC (powertac.org) plugin that bundles common css styles, images, logos that can be used across different PowerTAC servers and websites. This plugin also provides an "info" controller, which serves basic web pages such as "about", "contact", "terms", "disclaimer", "user-mailing-list", and "developer-mailing-list".
