@@ -4,13 +4,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>TAC Energy - <g:layoutTitle default="Welcome"/></title>
+  <title>Power TAC - <g:layoutTitle default="Welcome"/></title>
   <link rel="stylesheet" type="text/css" media="all" href="${resource(dir: 'css', file: 'style.css')}"/>
   <g:javascript library="jquery"/>
   <jq:plugin name="shuffle"/>
   <jq:plugin name="cycle"/>
   <g:javascript library="tac"/>
-  <flot:resources includeJQueryLib="false" plugins="['threshold']"/>
   <g:layoutHead/>
 </head>
 <body>
@@ -19,7 +18,7 @@
   <div id="header">
 
     <div id="logo" class="grid_4">
-      <a href="${resource(dir: '')}" title="TAC Energy"></a>
+      <a href="${resource(dir: '')}" title="Power TAC"></a>
     </div>
 
     <div id="nav">
@@ -105,7 +104,7 @@
       <div id="footer">
         <p>Copyright &copy; 2007-2011 Institute of Information Systems and Management (IISM), KIT in cooperation with RSM Erasmus University and
         University of Minnesota.</p>
-        <p class="additionalInformation">System Information: URL: <a href="${ConfigurationHolder.config?.grails?.serverURL}">${ConfigurationHolder.config?.grails?.serverURL}</a> - Time: ${new Date()} - Version: <a href="https://launchpad.net/tacenergy" target="_blank"><g:meta name="app.version"/></a></p>
+        <p class="additionalInformation">System Information: URL: <a href="${ConfigurationHolder.config?.grails?.serverURL}">${ConfigurationHolder.config?.grails?.serverURL}</a> - Time: ${new Date()} - Version: <a href="https://github.com/powertac/powertac-server" target="_blank"><g:meta name="app.version"/></a></p>
         <p class="additionalInformation">Server URL inside KIT campus: <a href="${ConfigurationHolder.config?.tacenergy?.connector?.internal?.url}" target="_blank">${ConfigurationHolder.config?.tacenergy?.connector?.internal?.url}</a><br/>
           Server URL outside KIT campus (public): <a href="${ConfigurationHolder.config?.tacenergy?.connector?.external?.url}" target="_blank">${ConfigurationHolder.config?.tacenergy?.connector?.external?.url}</a></p>
 
